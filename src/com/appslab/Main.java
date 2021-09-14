@@ -3,6 +3,9 @@ package com.appslab;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello AppsLab 2021!");
+
+        Snail snail = new Snail();
+
+        System.out.println(snail.totalDistance(0.2, 0.4, 100));
     }
 }

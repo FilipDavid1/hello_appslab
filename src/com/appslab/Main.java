@@ -3,6 +3,9 @@ package com.appslab;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello AppsLab 2020! haa");
+
+        Sides sides = new Sides();
+
+        System.out.println(sides.isTriangle(0.1,2,3));
     }
 }

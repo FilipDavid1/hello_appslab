@@ -1,8 +1,12 @@
 package com.appslab;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello AppsLab 2020! haa");
+        Array array = new Array();
+        array.multiplyByLength(new int[]{1,1,1,1});
     }
+
 }

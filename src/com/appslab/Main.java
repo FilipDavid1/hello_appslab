@@ -3,6 +3,8 @@ package com.appslab;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello AppsLab 2020! haa");
+       Capture capture = new Capture();
+
+        System.out.println(capture.canCapture("E5", "J5"));
     }
 }
